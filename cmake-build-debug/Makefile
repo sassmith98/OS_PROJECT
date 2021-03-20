@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/139/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/145/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/139/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/csis/CLionProjects/OS-PROJECT/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/139/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/145/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/139/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/145/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -143,6 +143,33 @@ OS_PROJECT/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS_PROJECT.dir/build.make CMakeFiles/OS_PROJECT.dir/build
 .PHONY : OS_PROJECT/fast
 
+inodeFunctions.o: inodeFunctions.cpp.o
+
+.PHONY : inodeFunctions.o
+
+# target to build an object file
+inodeFunctions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS_PROJECT.dir/build.make CMakeFiles/OS_PROJECT.dir/inodeFunctions.cpp.o
+.PHONY : inodeFunctions.cpp.o
+
+inodeFunctions.i: inodeFunctions.cpp.i
+
+.PHONY : inodeFunctions.i
+
+# target to preprocess a source file
+inodeFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS_PROJECT.dir/build.make CMakeFiles/OS_PROJECT.dir/inodeFunctions.cpp.i
+.PHONY : inodeFunctions.cpp.i
+
+inodeFunctions.s: inodeFunctions.cpp.s
+
+.PHONY : inodeFunctions.s
+
+# target to generate assembly for a file
+inodeFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS_PROJECT.dir/build.make CMakeFiles/OS_PROJECT.dir/inodeFunctions.cpp.s
+.PHONY : inodeFunctions.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -170,6 +197,60 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS_PROJECT.dir/build.make CMakeFiles/OS_PROJECT.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+partitionFunctions.o: partitionFunctions.cpp.o
+
+.PHONY : partitionFunctions.o
+
+# target to build an object file
+partitionFunctions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS_PROJECT.dir/build.make CMakeFiles/OS_PROJECT.dir/partitionFunctions.cpp.o
+.PHONY : partitionFunctions.cpp.o
+
+partitionFunctions.i: partitionFunctions.cpp.i
+
+.PHONY : partitionFunctions.i
+
+# target to preprocess a source file
+partitionFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS_PROJECT.dir/build.make CMakeFiles/OS_PROJECT.dir/partitionFunctions.cpp.i
+.PHONY : partitionFunctions.cpp.i
+
+partitionFunctions.s: partitionFunctions.cpp.s
+
+.PHONY : partitionFunctions.s
+
+# target to generate assembly for a file
+partitionFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS_PROJECT.dir/build.make CMakeFiles/OS_PROJECT.dir/partitionFunctions.cpp.s
+.PHONY : partitionFunctions.cpp.s
+
+superBlockFunctions.o: superBlockFunctions.cpp.o
+
+.PHONY : superBlockFunctions.o
+
+# target to build an object file
+superBlockFunctions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS_PROJECT.dir/build.make CMakeFiles/OS_PROJECT.dir/superBlockFunctions.cpp.o
+.PHONY : superBlockFunctions.cpp.o
+
+superBlockFunctions.i: superBlockFunctions.cpp.i
+
+.PHONY : superBlockFunctions.i
+
+# target to preprocess a source file
+superBlockFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS_PROJECT.dir/build.make CMakeFiles/OS_PROJECT.dir/superBlockFunctions.cpp.i
+.PHONY : superBlockFunctions.cpp.i
+
+superBlockFunctions.s: superBlockFunctions.cpp.s
+
+.PHONY : superBlockFunctions.s
+
+# target to generate assembly for a file
+superBlockFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS_PROJECT.dir/build.make CMakeFiles/OS_PROJECT.dir/superBlockFunctions.cpp.s
+.PHONY : superBlockFunctions.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,9 +260,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OS_PROJECT"
+	@echo "... inodeFunctions.o"
+	@echo "... inodeFunctions.i"
+	@echo "... inodeFunctions.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... partitionFunctions.o"
+	@echo "... partitionFunctions.i"
+	@echo "... partitionFunctions.s"
+	@echo "... superBlockFunctions.o"
+	@echo "... superBlockFunctions.i"
+	@echo "... superBlockFunctions.s"
 .PHONY : help
 
 

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/OS_PROJECT.dir/main.cpp.o  -o OS_PROJECT 
+/usr/bin/c++  -g   CMakeFiles/OS_PROJECT.dir/main.cpp.o CMakeFiles/OS_PROJECT.dir/partitionFunctions.cpp.o CMakeFiles/OS_PROJECT.dir/superBlockFunctions.cpp.o CMakeFiles/OS_PROJECT.dir/inodeFunctions.cpp.o  -o OS_PROJECT 

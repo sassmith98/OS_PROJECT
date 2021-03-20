@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/csis/CLionProjects/OS-PROJECT/inodeFunctions.cpp" "/home/csis/CLionProjects/OS-PROJECT/cmake-build-debug/CMakeFiles/OS_PROJECT.dir/inodeFunctions.cpp.o"
   "/home/csis/CLionProjects/OS-PROJECT/main.cpp" "/home/csis/CLionProjects/OS-PROJECT/cmake-build-debug/CMakeFiles/OS_PROJECT.dir/main.cpp.o"
+  "/home/csis/CLionProjects/OS-PROJECT/partitionFunctions.cpp" "/home/csis/CLionProjects/OS-PROJECT/cmake-build-debug/CMakeFiles/OS_PROJECT.dir/partitionFunctions.cpp.o"
+  "/home/csis/CLionProjects/OS-PROJECT/superBlockFunctions.cpp" "/home/csis/CLionProjects/OS-PROJECT/cmake-build-debug/CMakeFiles/OS_PROJECT.dir/superBlockFunctions.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

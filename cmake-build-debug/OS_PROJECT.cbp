@@ -82,7 +82,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/csis/CLionProjects/OS-PROJECT/inodeFunctions.cpp">
+			<Option target="OS_PROJECT"/>
+		</Unit>
+		<Unit filename="/home/csis/CLionProjects/OS-PROJECT/inodeFunctions.h">
+			<Option target="OS_PROJECT"/>
+		</Unit>
 		<Unit filename="/home/csis/CLionProjects/OS-PROJECT/main.cpp">
+			<Option target="OS_PROJECT"/>
+		</Unit>
+		<Unit filename="/home/csis/CLionProjects/OS-PROJECT/partitionFunctions.cpp">
+			<Option target="OS_PROJECT"/>
+		</Unit>
+		<Unit filename="/home/csis/CLionProjects/OS-PROJECT/partitionFunctions.h">
+			<Option target="OS_PROJECT"/>
+		</Unit>
+		<Unit filename="/home/csis/CLionProjects/OS-PROJECT/superBlockFunctions.cpp">
+			<Option target="OS_PROJECT"/>
+		</Unit>
+		<Unit filename="/home/csis/CLionProjects/OS-PROJECT/superBlockFunctions.h">
+			<Option target="OS_PROJECT"/>
+		</Unit>
+		<Unit filename="/home/csis/CLionProjects/OS-PROJECT/vdiFile.h">
+			<Option target="OS_PROJECT"/>
+		</Unit>
+		<Unit filename="/home/csis/CLionProjects/OS-PROJECT/vdiHeader.h">
 			<Option target="OS_PROJECT"/>
 		</Unit>
 		<Unit filename="/home/csis/CLionProjects/OS-PROJECT/CMakeLists.txt">
