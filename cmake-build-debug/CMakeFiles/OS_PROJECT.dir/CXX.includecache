@@ -6,7 +6,45 @@
 
 #IncludeRegexTransform: 
 
+/home/csis/CLionProjects/OS-PROJECT/inodeFunctions.cpp
+inodeFunctions.h
+/home/csis/CLionProjects/OS-PROJECT/inodeFunctions.h
+
+/home/csis/CLionProjects/OS-PROJECT/inodeFunctions.h
+
 /home/csis/CLionProjects/OS-PROJECT/main.cpp
 iostream
 -
+testVDI.h
+/home/csis/CLionProjects/OS-PROJECT/testVDI.h
+
+/home/csis/CLionProjects/OS-PROJECT/partitionFunctions.cpp
+unistd.h
+-
+partitionFunctions.h
+/home/csis/CLionProjects/OS-PROJECT/partitionFunctions.h
+vdiFile.h
+/home/csis/CLionProjects/OS-PROJECT/vdiFile.h
+vdiHeader.h
+/home/csis/CLionProjects/OS-PROJECT/vdiHeader.h
+vdiFunctions.h
+/home/csis/CLionProjects/OS-PROJECT/vdiFunctions.h
+
+/home/csis/CLionProjects/OS-PROJECT/partitionFunctions.h
+
+/home/csis/CLionProjects/OS-PROJECT/superBlockFunctions.cpp
+superBlockFunctions.h
+/home/csis/CLionProjects/OS-PROJECT/superBlockFunctions.h
+
+/home/csis/CLionProjects/OS-PROJECT/superBlockFunctions.h
+
+/home/csis/CLionProjects/OS-PROJECT/testVDI.h
+vdi.h
+/home/csis/CLionProjects/OS-PROJECT/vdi.h
+
+/home/csis/CLionProjects/OS-PROJECT/vdiFile.h
+
+/home/csis/CLionProjects/OS-PROJECT/vdiFunctions.h
+
+/home/csis/CLionProjects/OS-PROJECT/vdiHeader.h
 
