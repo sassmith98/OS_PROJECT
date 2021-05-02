@@ -17,7 +17,7 @@ struct vdiHeader{
     uint32_t frameOffset;
     uint32_t logicalChs;
     uint32_t sectorSize1;
-    uint32_t virutalChs;
+    uint32_t virtualChs;
     uint32_t sectorSize;
     uint32_t frameAllocated1;
     uint32_t diskSize;
